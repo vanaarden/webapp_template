@@ -4,7 +4,7 @@ module.exports = function (grunt) {
         cssmin: {
             minify: {
                 src: 'reset.css',
-                dest: 'style-min.css'
+                dest: 'dist/css/style-min.css'
             }
         },
 
@@ -14,7 +14,7 @@ module.exports = function (grunt) {
             },
             build: {
                 src: '*.js',
-                dest: 'build/js/<%= pkg.name %>.min.js'
+                dest: 'dist/js/<%= pkg.name %>.min.js'
             }
         },
 
